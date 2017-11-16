@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Auth", "Microservices.Auth\Microservices.Auth.csproj", "{8492C3B2-12C1-4AC0-99FE-0CDECD124F51}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BB5826BA-362F-412D-9DD9-DBD822A6F042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8492C3B2-12C1-4AC0-99FE-0CDECD124F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8492C3B2-12C1-4AC0-99FE-0CDECD124F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8492C3B2-12C1-4AC0-99FE-0CDECD124F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8492C3B2-12C1-4AC0-99FE-0CDECD124F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5826BA-362F-412D-9DD9-DBD822A6F042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5826BA-362F-412D-9DD9-DBD822A6F042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5826BA-362F-412D-9DD9-DBD822A6F042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5826BA-362F-412D-9DD9-DBD822A6F042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE2AB62A-D148-4E0B-BC5E-D6D4A60B793B}
+	EndGlobalSection
+EndGlobal

@@ -39,7 +39,7 @@ services:
     image: microservices-auth
     build:
       context: ./Microservices.Auth
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.prod
     environment:
       - "SERVICE_TAGS=traefik.enable=true,traefik.frontend.rule=Host:accounts.microservices.com"
 
